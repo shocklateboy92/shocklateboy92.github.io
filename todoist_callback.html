@@ -6,7 +6,7 @@
     <title>Redirecting...</title>
     <script>
         var redirectToApp = function () {
-            document.location = window.location.href.replace(/https:\/\/shocklateboy92.github.io/, 'org.lasath.todoistsummary:/');
+            document.write(`<a href='${window.location.href.replace(/https:\/\/shocklateboy92.github.io/, 'org.lasath.todoistsummary:/')}'>Click here to contine</a>`)
         };
 
         window.onload = redirectToApp;
